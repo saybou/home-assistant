@@ -13,3 +13,7 @@ Then start the container with:
 To restart Home Assistant when you have changed configuration:
 
   `$ docker-compose restart`
+
+Onboarding Home Assistant
+
+[http://127.0.0.1:8123/](http://127.0.0.1:8123/)
