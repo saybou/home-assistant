@@ -2,10 +2,12 @@ version: '3'
 services:
   homeassistant:
     container_name: home-assistant
-    image: homeassistant/raspberrypi4-64-homeassistant:latest
+    image: homeassistant/raspberrypi4-homeassistant:stable
     volumes:
       - ./config:/config
     environment:
       - TZ=Europe/Paris
     restart: always
     network_mode: host
+    #ports:
+    #  - 8123:8123

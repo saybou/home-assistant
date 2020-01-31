@@ -1,8 +1,10 @@
 # home-assistant
 
-## Install with docker
+## Install Home Assistant with docker on Raspbian
 
-[Official documentation](https://www.home-assistant.io/docs/installation/docker/)
+[Install docker](https://docs.docker.com/install/linux/docker-ce/debian/#install-using-the-convenience-script) <br/>
+[Install docker compose](https://docs.docker.com/compose/install/) <br/>
+[Install Home Assistant](https://www.home-assistant.io/docs/installation/docker/)
 
 Then start the container with:
 
